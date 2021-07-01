@@ -1,0 +1,57 @@
+@mixin  buttonDefault {
+  color: #fff;
+  padding: 9.5px 25px;
+  font-size: 12px;
+  
+}
+.searchButton{
+  background: #0090ff;
+  border-color:  #0090ff;
+  @include buttonDefault;
+  &:hover{
+    background: #66b1ff;
+    border-color: #66b1ff;
+    color: #FFF;
+  }
+  &:focus{
+    background: #0090ff;
+  border-color:  #0090ff;
+    color: #fff;
+  }
+}
+
+.clearButton{
+  background: #FF8700;
+  border-color:  #FF8700;
+  @include buttonDefault;
+  &:hover{
+    color: #fff;
+    background: #ebb563;
+    border-color: #ebb563;
+  }
+  &:focus{
+    background: #FF8700;
+    border-color:  #FF8700;
+    color: #fff;
+  }
+}
+.addButton{
+  background: #05BB6B;
+  border-color:   #05BB6B;
+  @include buttonDefault;
+  &:hover{
+    color: #fff;
+    background-color: #67C23A;
+    border-color: #67C23A;
+  }
+  &:focus{
+    background: #05BB6B;
+    border-color:   #05BB6B;
+    color: #fff;
+  }
+}
+.cancelButton{
+  color: #707070 !important;
+  @include buttonDefault
+}
+

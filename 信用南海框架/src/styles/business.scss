@@ -1,0 +1,190 @@
+.search{
+  // from
+  .el-input__inner{
+    height: 36px;
+    line-height: 36px;
+  }
+  label{
+    font-weight: 400 !important;
+  }
+  .el-form-item__label{
+    color: #667588;
+    line-height: 36px;
+  }
+  .sreach-row{
+    .el-form-item{
+      margin-bottom: 0px;
+    }
+  }
+  .el-form-item__content{
+    line-height: 36px;
+  }
+  .cell{
+    padding-left: 40px;
+    &:last-child {
+      padding-left: 60px;
+    }
+    &:first-child{
+      padding-left: 0px;
+    }
+  }
+  // 时间长度
+  .el-date-editor--daterange.el-input__inner{
+    width: 255px;
+  }
+  .el-date-editor .el-range-separator{
+    line-height: 26px;
+  }
+  .el-date-editor .el-range__icon{
+    line-height: 26px;
+  }
+  
+  .el-button{
+    padding: 8px 20px;
+  }
+}
+.main{
+  // buttom
+  .el-button{
+    padding: 8px 10px;
+  }
+  .icon{
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+.footer{
+  .el-pagination.is-background .el-pager li:not(.disabled).active{
+    background-color: #598aff;
+  }
+  .el-select .el-input.is-focus .el-input__inner{
+    border-color: #598aff;
+  }
+}
+.el-select-dropdown{
+  .el-select-dropdown__item.selected{
+    color: #598aff;
+  }
+  
+}
+
+// buttom
+// 查询按钮
+.el-button--success{
+  color: #fff;
+  background: #598aff;
+  border-color: #598aff;
+}
+.el-button--success:hover{
+  background-color: #598aff;
+  border-color: #598aff;
+}
+.el-button--success:focus{
+  background-color: #598aff;
+  border-color: #598aff;
+  color: #fff;
+}
+// 清空按钮
+.el-button--waring{
+  color: #667588;
+  background-color: #ffffff;
+  border-color: #dddfe7;
+}
+.el-button--waring:hover{
+  background-color: #ffffff;
+  border-color: #dddfe7;
+  color: #667588;
+}
+.el-button--waring:focus{
+  background-color: #ffffff;
+  border-color: #dddfe7;
+  color: #667588;
+}
+
+// 模板下载按钮
+.el-button--info{
+  color: #FFFFFF;
+  background-color: #31c279;
+  border-color: #31c279;
+}
+.el-button--info:hover{
+  background-color: #31c279;
+  border-color: #31c279;
+  color: #FFFFFF;
+}
+.el-button--info:focus{
+  background-color: #31c279;
+  border-color: #31c279;
+  color: #FFFFFF;
+}
+// 新增按钮
+.el-button--add{
+  color: #ffffff;
+  background-color: #FF9B59;
+  border-color: #FF9B59;
+}
+.el-button--add:hover{
+  background-color: #FF9B59;
+  border-color: #FF9B59;
+  color: #ffffff;
+}
+.el-button--add:focus{
+  background-color:#FF9B59;
+  border-color:#FF9B59;
+  color: #ffffff;
+}
+
+.el-button--export{
+  color: #ffffff;
+  background-color: #10CE52;
+  border-color: #10CE52;
+}
+.el-button--export:hover{
+  background-color: #10CE52;
+  border-color: #10CE52;
+  color: #ffffff;
+}
+.el-button--export:focus{
+  background-color:#10CE52;
+  border-color:#10CE52;
+  color: #ffffff;
+}
+.el-button--danger{
+  color: #fff;
+  background-color: #237AFC;
+  border-color: #237AFC;
+}
+.el-button--danger:hover{
+  background-color: #237AFC;
+  border-color: #237AFC;
+  color: #fff;
+}
+.el-button--danger:focus{
+  background-color: #237AFC;
+  border-color: #237AFC;
+  color: #fff;
+}
+.el-input__icon{
+  line-height: 36px;
+}
+.el-button--content{
+  color: #10CE52;
+  background-color: #ffffff;
+  border-color: #10CE52;
+}
+.el-button--content:hover{
+  background-color: #ffffff;
+  border-color: #10CE52;
+  color: #10CE52;
+}
+.el-button--content:focus{
+  background-color: #ffffff;
+  border-color: #10CE52;
+  color: #10CE52;
+}
+
+
+.ql-editor{
+  min-height: 300px;
+}

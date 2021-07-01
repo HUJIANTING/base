@@ -1,0 +1,14 @@
+
+//表格错位问题
+body .el-table th.gutter{
+  display: table-cell!important;  
+
+}
+
+//解决表格宽度不够最后一栏留白问题，自适应浏览器缩放
+body .el-table{
+  width: 100%;
+  .el-table__header-wrapper table,.el-table__body-wrapper table{
+    width: 100% !important;
+  }
+}
